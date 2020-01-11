@@ -7,6 +7,11 @@
 
 > This Alexa based solution is intuitive to use and also caters to the physically challenged travellers in India.
 
+***SOS and Emergency Support System***
+> For building the SOS and emergency support service, we use IFTTT.
+> As the user triggers the SOS message through his Alexa app, all the registered people having the IFTTT app in their phone receive a distress call for help through VoIP protocol. 
+
+
 ***Domain Bucket*** :
 > Travel and Tourism
 
