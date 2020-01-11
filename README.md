@@ -31,3 +31,8 @@
 - IFTTT - To create applets for Alexa
 - VUI - Voice User Interface (to easily enable users to get a handsfree experience)
 - VoIP Call (to trigger SOS and emergency support)
+
+***Useful Links*** :
+
+[How to train an Alexa skill](https://developer.amazon.com/en-US/alexa/alexa-skills-kit)
+[How to create applets in IFTTT](https://help.ifttt.com/hc/en-us/articles/360021401373-Creating-your-own-Applet)
