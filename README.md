@@ -35,4 +35,5 @@
 ***Useful Links*** :
 
 [How to train an Alexa skill](https://developer.amazon.com/en-US/alexa/alexa-skills-kit)
+
 [How to create applets in IFTTT](https://help.ifttt.com/hc/en-us/articles/360021401373-Creating-your-own-Applet)
