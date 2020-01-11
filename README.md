@@ -38,4 +38,4 @@
 
 [How to create applets in IFTTT](https://help.ifttt.com/hc/en-us/articles/360021401373-Creating-your-own-Applet)
 
-[Youtube Video](https://www.youtube.com/watch?v=zPf-6nD76wU&feature=youtu.be)
+[Youtube Video](https://youtu.be/wt4hsnY8a1I)
