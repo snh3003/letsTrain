@@ -1,11 +1,8 @@
-"""
-This is a Python template for Alexa to get you building skills (Tourist) quickly.
-"""
 
 from __future__ import print_function
 
 
-# --------------- Helpers that build all of the responses ----------------------
+# Helps that build all of the responses
 
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
@@ -35,7 +32,7 @@ def build_response(session_attributes, speechlet_response):
     }
 
 
-# --------------- Functions that control the skill's behavior ------------------
+# Functions that control the skill's behavior
 def get_test_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-1 """
     session_attributes = {}
@@ -46,6 +43,7 @@ def get_test_response():
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
 
+# Triggers when user says Bhavani Island
 def get_test1_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-2 """
     session_attributes = {}
@@ -56,6 +54,7 @@ def get_test1_response():
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
 
+# Triggers when user says Kondaveedu Fort
 def get_test2_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-3 """
     session_attributes = {}
@@ -65,7 +64,8 @@ def get_test2_response():
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
-        
+
+# Triggers when user says Undavalli Cave
 def get_test3_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-4 """
     session_attributes = {}
@@ -75,7 +75,8 @@ def get_test3_response():
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
-        
+
+# Triggers when user says Amaravati Stupa
 def get_test4_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-5 """
     session_attributes = {}
@@ -85,7 +86,7 @@ def get_test4_response():
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
-        
+# Triggers when user says Prakasam Barrage       
 def get_test5_response():
     """ An example of a custom intent. Same structure as welcome message. Structur for place-5 """
     session_attributes = {}
@@ -118,7 +119,7 @@ def handle_session_end_request():
     return build_response({}, build_speechlet_response(
         card_title, speech_output, None, should_end_session))
 
-# --------------- Events ------------------
+# Events
 
 def on_session_started(session_started_request, session):
     """ Called when the session starts.
@@ -174,7 +175,7 @@ def on_session_ended(session_ended_request, session):
     # add cleanup logic here
 
 
-# --------------- Main handler ------------------
+# Main handler
 
 def lambda_handler(event, context):
     """ Route the incoming request based on type (LaunchRequest, IntentRequest,
